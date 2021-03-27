@@ -1,0 +1,22 @@
+{
+  "name": "@erickwendel/hacker-chat-client",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
+  "scripts": {
+    "user01": "node index.js --username vitormendes --room sala01 --hostUri http://localhost:9898",
+    "user02": "node index.js --username fernanda --room sala01 --hostUri http://localhost:9898",
+    "user03": "node index.js --username teste --room sala02 --hostUri http://localhost:9898",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vitor Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
